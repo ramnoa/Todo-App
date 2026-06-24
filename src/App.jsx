@@ -1,6 +1,6 @@
 import Todo from "./Components/Todo"
-import Inline from "./Components/Incline" 
-
+import Inline from "./Components/Inline" 
+import Outline from "./Components/Outline"
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
         <div className="hero">
           {/* <Todo /> */}
           <Inline />
+          <Outline />
           </div>
     
   )

@@ -13,11 +13,11 @@
     //         inline styling
     //     </h1>
     // )}\
-    import "../css/style.css"
+    import styles from "./Inlinecomponent.module.css"
      const header  = {color: "green" , fontSize:"70px"}
     export default function   Inline() {
     return(
-        <h1 className="header">
+        <h1 className={styles.header}>
             inline styling
         </h1>
     )}
